@@ -30,6 +30,16 @@ We interact with the system via a simple set of commands which produce a specifi
 
 ## Example
 
+### Code Structure
+
+```
+To install all dependencies, compile and run tests:
+> bin/setup
+
+To run the program and launch the shell:
+> bin/parking_lot
+```
+
 ### File Input
 
 ```

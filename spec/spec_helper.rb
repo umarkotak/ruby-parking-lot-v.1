@@ -1,6 +1,8 @@
-require_relative '../app/models/base_model.rb'
 require_relative '../app/models/car.rb'
 require_relative '../app/models/parking_lot.rb'
+
+require 'simplecov'
+SimpleCov.start
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|

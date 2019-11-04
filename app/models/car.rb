@@ -1,6 +1,4 @@
-require_relative './base_model.rb'
-
-class Car < BaseModel
+class Car
   attr_reader :number_plate, :colour
 
   def initialize(number_plate, colour)
